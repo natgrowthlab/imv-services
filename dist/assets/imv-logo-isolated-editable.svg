@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">IMV logo mark</title>
+  <desc id="desc">Editable IMV wordmark set in Halyard Display.</desc>
+  <defs>
+    <linearGradient id="imv-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4df"/>
+      <stop offset="1" stop-color="#e4bd83"/>
+    </linearGradient>
+  </defs>
+  <text x="480" y="300" text-anchor="middle" fill="url(#imv-gold)" font-family="halyard-display-variable, Halyard Display, Arial, sans-serif" font-size="360" font-weight="700" letter-spacing="-34">IMV</text>
+</svg>
