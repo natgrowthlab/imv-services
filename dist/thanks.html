@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thank you for contacting IMV Services." />
+  <title>Thank you | IMV Services</title>
+  <link rel="icon" type="image/png" href="assets/imv-mark.png" />
+  <style>
+    @font-face { font-family:"halyard-display-variable"; src:url("assets/fonts/Halyard-Display.woff2") format("woff2"); font-display:swap; } :root { --cream:#ffedd7; --walnut:#100904; --green:#17352d; --ember:#dc5000; } * { box-sizing:border-box; } body { min-height:100svh; margin:0; display:grid; place-items:center; overflow:hidden; color:var(--cream); background:radial-gradient(circle at 50% 30%,rgba(23,53,45,.92),transparent 46%),linear-gradient(135deg,var(--walnut),#261609); font-family:Arial,sans-serif; } .panel { position:relative; z-index:1; width:min(700px,calc(100% - 36px)); padding:54px 28px; border:1px solid rgba(255,237,215,.2); border-radius:32px; background:rgba(16,9,4,.48); text-align:center; backdrop-filter:blur(10px); animation:enter .8s cubic-bezier(.2,.8,.2,1) both; } .mark { width:92px; height:92px; object-fit:contain; animation:float 4s ease-in-out infinite; } h1 { max-width:11ch; margin:26px auto 14px; font:500 clamp(3rem,9vw,6rem)/.86 "halyard-display-variable",Arial,sans-serif; letter-spacing:-.06em; text-transform:uppercase; } p { margin:0 auto 30px; max-width:36ch; font-size:17px; line-height:1.5; } a { display:inline-block; padding:14px 18px; border:1px solid var(--cream); border-radius:26px; color:var(--cream); font:500 12px/1 Arial,sans-serif; letter-spacing:.04em; text-decoration:none; text-transform:uppercase; transition:background .25s ease,color .25s ease; } a:hover { color:var(--walnut); background:var(--cream); } .confetti { position:absolute; inset:0; pointer-events:none; } .confetti i { position:absolute; width:10px; height:24px; border-radius:2px; background:var(--cream); animation:fall 2.8s cubic-bezier(.2,.7,.3,1) infinite; } .confetti i:nth-child(3n) { background:var(--ember); } .confetti i:nth-child(4n) { background:#769a80; } .confetti i:nth-child(1) { left:8%; animation-delay:-.2s; } .confetti i:nth-child(2) { left:20%; animation-delay:-1.2s; } .confetti i:nth-child(3) { left:33%; animation-delay:-.7s; } .confetti i:nth-child(4) { left:48%; animation-delay:-1.9s; } .confetti i:nth-child(5) { left:61%; animation-delay:-.4s; } .confetti i:nth-child(6) { left:74%; animation-delay:-1.5s; } .confetti i:nth-child(7) { left:88%; animation-delay:-.9s; } @keyframes enter { from { opacity:0; transform:translateY(26px) scale(.98); } to { opacity:1; transform:none; } } @keyframes float { 50% { transform:translateY(-10px) rotate(3deg); } } @keyframes fall { 0% { transform:translateY(-14vh) rotate(0deg); opacity:0; } 12% { opacity:1; } 90% { opacity:1; } 100% { transform:translateY(114vh) rotate(520deg); opacity:0; } } @media (prefers-reduced-motion:reduce) { *,*::before,*::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; } }
+  </style>
+</head>
+<body>
+  <div class="confetti" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <main class="panel"><img class="mark" src="assets/imv-mark.png" alt="IMV" /><h1>We will get in touch soon.</h1><p>Thank you for reaching out to IMV Services. Your request is on its way to our team.</p><a href="/">Back to home</a></main>
+</body>
+</html>
